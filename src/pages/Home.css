@@ -1,0 +1,60 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+}
+
+.recipes {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.recipe {
+    border: 2px solid green;
+    padding: 10px;
+    width: 20vw;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.recipe-image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.recipe-image {
+    object-fit: fill;
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    /* border: 2px solid red; */
+}
+
+.searchAndFood{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipe-title{
+    font-size: small;
+}
+
+.recipe-title:hover{
+    cursor: pointer;
+}

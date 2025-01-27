@@ -1,0 +1,38 @@
+.recipeDetail{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    padding: 10px;
+    gap: 5px;
+}
+
+.upper-left{
+    width: 30%;
+}
+
+.dish-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.upper-right{
+    width: 50%;
+    font-size: large;
+    margin-top: 6%;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.lower{
+    padding: 20px;
+    font-size: medium;
+}
